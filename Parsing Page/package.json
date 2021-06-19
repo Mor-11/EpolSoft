@@ -1,0 +1,27 @@
+{
+  "name": "epolsort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mor-11/EpolSort.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mor-11/EpolSort/issues"
+  },
+  "homepage": "https://github.com/Mor-11/EpolSort#readme",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "normalize-scss": "^7.0.1",
+    "normalize.css": "^8.0.1"
+  }
+}
