@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sass/style.css" />
+    <title>Parsing Page</title>
+  </head>
+
+  <body>
+    <main class="parsing">
+      <div class="parsing__input">
+        <input type="text" class="parsing__input_nemder" placeholder="Number" />
+        <input
+          type="text"
+          class="parsing__input_converted"
+          placeholder="Converted"
+          readonly
+        />
+      </div>
+      <div class="parsing__selection">
+        <div class="parsing__selection_NAI">
+          <span class="selection_title">NAI</span>
+          <li>
+            <input type="radio" name="NAI" id="" value="national" />
+            <label for="national">National</label>
+          </li>
+          <li>
+            <input type="radio" name="NAI" id="" value="unknown" />
+            <label for="unknown">Unknown</label>
+          </li>
+          <li>
+            <input type="radio" name="NAI" id="" value="national significant" />
+            <label for="national significant">National Significant</label>
+          </li>
+          <li>
+            <input type="radio" name="NAI" id="" value="lntarnational" />
+            <label for="lntarnational">Intarnational</label>
+          </li>
+        </div>
+
+        <div class="parsing__selection_Screening">
+          <span class="selection_title">Screening</span>
+          <li>
+            <input type="radio" name="Screening" id="" value="not varified" />
+            <label for="not varified">Not Varified</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="Screening"
+              id=""
+              value="varified and passed"
+            />
+            <label for="varified and passed">Varified and passed</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="Screening"
+              id=""
+              value="varified and failed"
+            />
+            <label for="varified and failed">Varified and failed</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="Screening"
+              id=""
+              value="network provided"
+            />
+            <label for="network provided">Network provided</label>
+          </li>
+        </div>
+
+        <div class="parsing__selection_Presentation">
+          <span class="selection_title">Presentation</span>
+          <li>
+            <input type="radio" name="Presentation" id="" value="allowed" />
+            <label for="allowed">Allowed</label>
+          </li>
+          <li>
+            <input type="radio" name="Presentation" id="" value="restricted" />
+            <label for="restricted">Restricted</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="Presentation"
+              id=""
+              value="not availadle"
+            />
+            <label for="not availadle">Not availadle</label>
+          </li>
+        </div>
+
+        <div class="parsing__selection_Numberring_Plan">
+          <span class="selection_title">Numberring Plan</span>
+
+          <li>
+            <input type="radio" name="Numberring_Plan" id="" value="ISDN" />
+            <label for="ISDN">ISDN</label>
+          </li>
+          <li>
+            <input type="radio" name="Numberring_Plan" id="" value="daya" />
+            <label for="daya">Daya</label>
+          </li>
+          <li>
+            <input type="radio" name="Numberring_Plan" id="telex" />
+            <label for="telex">Telex</label>
+          </li>
+        </div>
+
+        <div class="parsing__selection_Routing">
+          <span class="selection_title">Routing</span>
+
+          <li>
+            <input type="radio" name="Routing" id="" value="allowed" />
+            <label for="allowed">Allowed</label>
+          </li>
+          <li>
+            <input type="radio" name="Routing" id="" value="not allowed" />
+            <label for="not allowed">Not allowed</label>
+          </li>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
