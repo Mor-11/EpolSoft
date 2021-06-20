@@ -23,19 +23,35 @@
         <div class="parsing__selection_NAI">
           <span class="selection_title">NAI</span>
           <li>
-            <input type="radio" name="NAI" id="" value="national" />
+            <input
+              type="radio"
+              name="NAI"
+              id="national"
+              value="00000001"
+              checked
+            />
             <label for="national">National</label>
           </li>
           <li>
-            <input type="radio" name="NAI" id="" value="unknown" />
+            <input type="radio" name="NAI" id="unknown" value="00000010" />
             <label for="unknown">Unknown</label>
           </li>
           <li>
-            <input type="radio" name="NAI" id="" value="national significant" />
+            <input
+              type="radio"
+              name="NAI"
+              id="national significant"
+              value="00000011"
+            />
             <label for="national significant">National Significant</label>
           </li>
           <li>
-            <input type="radio" name="NAI" id="" value="lntarnational" />
+            <input
+              type="radio"
+              name="NAI"
+              id="lntarnational"
+              value="00000100"
+            />
             <label for="lntarnational">Intarnational</label>
           </li>
         </div>
@@ -43,15 +59,20 @@
         <div class="parsing__selection_Screening">
           <span class="selection_title">Screening</span>
           <li>
-            <input type="radio" name="Screening" id="" value="not varified" />
+            <input
+              type="radio"
+              name="Screening"
+              id="not varified"
+              value="00000000"
+            />
             <label for="not varified">Not Varified</label>
           </li>
           <li>
             <input
               type="radio"
               name="Screening"
-              id=""
-              value="varified and passed"
+              id="varified and passed"
+              value="00000001"
             />
             <label for="varified and passed">Varified and passed</label>
           </li>
@@ -59,8 +80,8 @@
             <input
               type="radio"
               name="Screening"
-              id=""
-              value="varified and failed"
+              id="varified and failed"
+              value="00000010"
             />
             <label for="varified and failed">Varified and failed</label>
           </li>
@@ -68,8 +89,8 @@
             <input
               type="radio"
               name="Screening"
-              id=""
-              value="network provided"
+              id="network provided"
+              value="00000011"
             />
             <label for="network provided">Network provided</label>
           </li>
@@ -78,19 +99,30 @@
         <div class="parsing__selection_Presentation">
           <span class="selection_title">Presentation</span>
           <li>
-            <input type="radio" name="Presentation" id="" value="allowed" />
+            <input
+              type="radio"
+              name="Presentation"
+              id="allowed"
+              value="00000000"
+              checked
+            />
             <label for="allowed">Allowed</label>
           </li>
           <li>
-            <input type="radio" name="Presentation" id="" value="restricted" />
+            <input
+              type="radio"
+              name="Presentation"
+              id="restricted"
+              value="00000100"
+            />
             <label for="restricted">Restricted</label>
           </li>
           <li>
             <input
               type="radio"
               name="Presentation"
-              id=""
-              value="not availadle"
+              id="not availadle"
+              value="00001000"
             />
             <label for="not availadle">Not availadle</label>
           </li>
@@ -100,15 +132,30 @@
           <span class="selection_title">Numberring Plan</span>
 
           <li>
-            <input type="radio" name="Numberring_Plan" id="" value="ISDN" />
+            <input
+              type="radio"
+              name="Numberring_Plan"
+              id="ISDN"
+              value="00010000"
+            />
             <label for="ISDN">ISDN</label>
           </li>
           <li>
-            <input type="radio" name="Numberring_Plan" id="" value="daya" />
+            <input
+              type="radio"
+              name="Numberring_Plan"
+              id="daya"
+              value="00110000"
+            />
             <label for="daya">Daya</label>
           </li>
           <li>
-            <input type="radio" name="Numberring_Plan" id="telex" />
+            <input
+              type="radio"
+              name="Numberring_Plan"
+              id="telex"
+              value="01000000"
+            />
             <label for="telex">Telex</label>
           </li>
         </div>
@@ -117,15 +164,22 @@
           <span class="selection_title">Routing</span>
 
           <li>
-            <input type="radio" name="Routing" id="" value="allowed" />
+            <input
+              type="radio"
+              name="Routing"
+              id="allowed"
+              value="00000000"
+              checked
+            />
             <label for="allowed">Allowed</label>
           </li>
           <li>
-            <input type="radio" name="Routing" id="" value="not allowed" />
+            <input type="radio" name="not allowed" id="" value="10000000" />
             <label for="not allowed">Not allowed</label>
           </li>
         </div>
       </div>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>
