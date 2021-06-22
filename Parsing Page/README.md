@@ -14,7 +14,9 @@
 Если нечетный, то в поле Converted выводится текст "H'8"
 
 4 Далее Converted дополняется следующим образом: 
+
 ![](https://github.com/EpolSoft/TelcoTest/raw/master/image2.png)
+
 Пример:H'8313, где
 
 83 - первый октет в 16-ричном представлении
@@ -33,13 +35,12 @@
 
 5 Для второго октета выставать второй октет в (пример) H'8313
 Где значениям битов
+
 ![](https://github.com/EpolSoft/TelcoTest/raw/master/image3.png)
 
-
 соответствуют значения в radio group
+
 ![](https://github.com/EpolSoft/TelcoTest/raw/master/image4.png)
-
-
 
 Пример:
 
