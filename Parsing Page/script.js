@@ -1,13 +1,14 @@
 const NUMBER = document.querySelector(".parsing__input_nemder");
 const CONVERTED = document.querySelector(".parsing__input_converted");
 const CHECKBOXES = document.querySelectorAll(".parsing__input_checkbox");
-const checkedCheckboxes = [];
+let FirstOctetSecond = [],
+  SecondOctetFirst = [],
+  SecondOctetSecond = [];
 
-function checkBoxes() {
-  CHECKBOXES.forEach((ithem) => {
-    if (ithem.checked == true) checkedCheckboxes.push(ithem);
-  });
-}
+CHECKBOXES.forEach((checkbox) => {
+  checkbox.addEventListener("click", Output);
+});
+NUMBER.oninput = Output;
 
 const summationDoubleNumner = function () {
   let sumNumbers = "00000000";
@@ -40,7 +41,6 @@ function CheckNumber(number) {
 }
 
 NUMBER.oninput = function () {
-  checkBoxes();
   let DoubleNumber = summationDoubleNumner();
   CONVERTED.value = `${CheckNumber(NUMBER)}${parseInt(DoubleNumber, 2)}`;
 };
