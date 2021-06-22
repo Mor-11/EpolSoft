@@ -11,7 +11,7 @@
   <body>
     <main class="parsing">
       <div class="parsing__input">
-        <input type="text" class="parsing__input_nemder" placeholder="Number" />
+        <input type="number" class="parsing__input_nemder" placeholder="Number" />
         <input
           type="text"
           class="parsing__input_converted"
@@ -28,13 +28,19 @@
               type="radio"
               name="NAI"
               id="national"
-              value="00000001"
+              value="0001"
               checked
             />
             <label for="national">National</label>
           </li>
           <li>
-            <input type="radio" name="NAI" id="unknown" value="00000010" />
+            <input
+              class="parsing__input_checkbox"
+              type="radio"
+              name="NAI"
+              id="unknown"
+              value="0010"
+            />
             <label for="unknown">Unknown</label>
           </li>
           <li>
@@ -43,7 +49,7 @@
               type="radio"
               name="NAI"
               id="national significant"
-              value="00000011"
+              value="0011"
             />
             <label for="national significant">National Significant</label>
           </li>
@@ -53,7 +59,7 @@
               type="radio"
               name="NAI"
               id="lntarnational"
-              value="00000100"
+              value="0100"
             />
             <label for="lntarnational">Intarnational</label>
           </li>
@@ -67,7 +73,11 @@
               type="radio"
               name="Screening"
               id="not varified"
+<<<<<<< HEAD
+              value="0000"
+=======
               value="00000000"
+>>>>>>> 41901710752368a4ea03c1814a1f3c621ceb4837
               checked
             />
             <label for="not varified">Not Varified</label>
@@ -78,7 +88,7 @@
               type="radio"
               name="Screening"
               id="varified and passed"
-              value="00000001"
+              value="0001"
             />
             <label for="varified and passed">Varified and passed</label>
           </li>
@@ -88,7 +98,7 @@
               type="radio"
               name="Screening"
               id="varified and failed"
-              value="00000010"
+              value="0010"
             />
             <label for="varified and failed">Varified and failed</label>
           </li>
@@ -98,7 +108,7 @@
               type="radio"
               name="Screening"
               id="network provided"
-              value="00000011"
+              value="0011"
             />
             <label for="network provided">Network provided</label>
           </li>
@@ -112,7 +122,7 @@
               type="radio"
               name="Presentation"
               id="allowed"
-              value="00000000"
+              value="0000"
               checked
             />
             <label for="allowed">Allowed</label>
@@ -123,7 +133,7 @@
               type="radio"
               name="Presentation"
               id="restricted"
-              value="00000100"
+              value="0100"
             />
             <label for="restricted">Restricted</label>
           </li>
@@ -133,7 +143,7 @@
               type="radio"
               name="Presentation"
               id="not availadle"
-              value="00001000"
+              value="1000"
             />
             <label for="not availadle">Not availadle</label>
           </li>
@@ -148,7 +158,11 @@
               type="radio"
               name="Numberring_Plan"
               id="ISDN"
+<<<<<<< HEAD
+              value="0001"
+=======
               value="00010000"
+>>>>>>> 41901710752368a4ea03c1814a1f3c621ceb4837
               checked
             />
             <label for="ISDN">ISDN</label>
@@ -159,7 +173,7 @@
               type="radio"
               name="Numberring_Plan"
               id="daya"
-              value="00110000"
+              value="0011"
             />
             <label for="daya">Daya</label>
           </li>
@@ -169,7 +183,7 @@
               type="radio"
               name="Numberring_Plan"
               id="telex"
-              value="01000000"
+              value="0100"
             />
             <label for="telex">Telex</label>
           </li>
@@ -184,7 +198,7 @@
               type="radio"
               name="Routing"
               id="allowed"
-              value="00000000"
+              value="0000"
               checked
             />
             <label for="allowed">Allowed</label>
@@ -193,8 +207,13 @@
             <input
               class="parsing__input_checkbox"
               type="radio"
+<<<<<<< HEAD
+              name="Routing"
+              id="1000"
+=======
               name="not allowed"
               id="10000000"
+>>>>>>> 41901710752368a4ea03c1814a1f3c621ceb4837
               value="not allowed"
             />
             <label for="not allowed">Not allowed</label>
